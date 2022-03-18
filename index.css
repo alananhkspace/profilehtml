@@ -1,0 +1,49 @@
+/* By Patiparn Chirasutthiyarn */
+header{
+ background: rgba(0,0,0, 0.5);
+ color:white;                         /* setbackground*/
+ text-align: center;
+
+ 
+}
+#propic{
+    width: 50%;                    /*set ภาพให้อยู่ตรงกลาง */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 5px solid white;
+}
+body{
+    background-image:url(image/1510910455572.png) ;   /*(เรียกภาพจากfolderimageเป็น background)*/
+    background-size: cover;
+    background-position: center;
+    
+}
+
+ul{
+    margin:0px;                          /* set ช่องไฟ */
+    padding: 40px 0px 0px 20px;
+   
+}
+a {
+    text-decoration: none;            /* set ช่องไฟ และ background*/
+    display:inline-block;
+    background:#ede6d1 ;
+    margin: 10px;
+    width: fit-content;
+    border-radius:3px;
+    padding:10px 10px 10px 10px;
+}
+a:hover {
+    text-decoration:underline ;           /*เมื่อเอา mouse hover จะขีดเส้นใต้ */
+
+}
+#Toppro {
+    color: white;
+}
+nav{
+    background-color: bisque;                 /* setbackground*/
+    width: 70%; 
+    
+}
+

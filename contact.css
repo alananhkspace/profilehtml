@@ -1,0 +1,32 @@
+/* By Patiparn Chirasutthiyarn */
+body{
+    background-image:url(image/1510910455572.png) ;  /*(เรียกภาพจากfolderimageเป็น background)*/
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    margin:0px;
+    padding: 40px 0px 0px 20px;                  /* set ช่องไฟ */
+   
+}
+a {
+    text-decoration: none;
+    display:inline-block;
+    background:#ede6d1 ;                      /* set ช่องไฟ และ background*/
+    margin: 10px;
+    width: fit-content;
+    border-radius:3px;
+    padding:10px 10px 10px 10px;
+}
+a:hover {
+    text-decoration:underline ;                 /*เมื่อเอา mouse hover จะขีดเส้นใต้ */
+
+}
+nav{
+    text-align: center;
+    background-color: #ede6d1;                /* set background*/
+    
+}
+h1{
+    color: white;                         /* set สี text*/
+}
